@@ -1,0 +1,30 @@
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local IDE/editor settings
+.idea/
+.vscode/
+
+# Runtime/generated fitting files
+fitting_result_*.hs
+
+# Generated visualization outputs: ignore all by default
+fitting_html/*
+
+# Keep curated example visualization outputs
+!fitting_html/visualization-G10-01-2S.html
+!fitting_html/visualization-G10-01-2S.json
+
+# Generated quantification spreadsheets: ignore all by default
+0624quantified*.xlsx
+~$*.xlsx
+
+# Keep curated example spreadsheets
+!0624quantified-G10-01-2S.xlsx
+!0624quantified-FS-G10-01-2S.xlsx
+
+# Optional: macOS/Windows metadata
+.DS_Store
+Thumbs.db
